@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <unistd.h>
+
+void    *ft_strcapitalize(char *str)
+{
+    int c;
+    int i;
+    char *str1;
+    
+    str1 = (char *) malloc(15);
+   
+    c = 0;
+    i = 0;
+    while (str[c] != '\0')
+    {
+        if (str[c] != 32)
+        {
+        str1[i] = str[c];
+        i++;
+        }
+    c++;
+    }
+    printf("%s", str1);
+    free (str1);
+}
+
+int main(void)
+{
+    ft_strcapitalize("1 1 1 1");
+}
