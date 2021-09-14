@@ -1,0 +1,6 @@
+Credentials cache: API:77719B7D-B67B-4607-91A0-3D18F3C495D0
+        Principal: ualcibar@42URDULIZ.COM
+
+  Issued                Expires               Principal
+Jun  7 10:59:50 2021  Jun  7 20:59:50 2021  krbtgt/42URDULIZ.COM@42URDULIZ.COM
+Jun  7 10:59:52 2021  Jun  7 20:59:50 2021  HTTP/student-storage.42urduliz.com@42URDULIZ.COM
